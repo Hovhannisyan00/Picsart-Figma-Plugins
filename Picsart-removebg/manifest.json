@@ -1,0 +1,30 @@
+{
+  "name": "Picsart-plugin-RemuveBG",
+  "id": "738992712906748191",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "menu": [
+    {
+      "name": "Runing",
+      "command": "removebgfunc"
+    },
+    {
+      "separator": true
+    },
+    {
+      "name": "First API Key",
+      "command": "removebgkey"
+    }
+  ],
+  "networkAccess": {
+    "allowedDomains": [
+      "https://picsart.com/",
+      "https://picsart.com/background-remover/",
+      "https://api.picsart.io/tools/1.0/removebg",
+      "https://cdn.picsart.io",
+      "https://api.picsart.io"
+    ]
+  }
+}
